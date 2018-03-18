@@ -1,0 +1,84 @@
+.image-top {
+   height: 50vh;
+   width: 100vw;
+   background: red;
+   /* background: url("img/hills.jpg") cover; */
+   background: url("../img/hills.jpg") no-repeat center center;
+   background-size: 100%;
+}
+
+.hello-world {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   color: white;
+   font-size: 80px;
+}
+
+.lorem-text {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.row-info-photo {
+   height: 60vh;
+}
+
+.col-photo {
+   background: url("../img/hills.jpg") no-repeat center center;
+}
+
+.col-photo-2 {
+   background: url("../img/man-boat.jpg") no-repeat center center;
+}
+
+.col-text {
+   padding: 30px;
+   display: flex;
+   align-items: center;
+}
+
+.readmore {
+   height: 100vh;
+}
+
+.readmore>.row {
+   height: 100%;
+}
+
+.photo-left-title {
+   background: url("../img/man-boat.jpg") no-repeat center center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 50px;
+}
+
+.text-right-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* text-align: left; */
+}
+
+.quote {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   padding: 100px;
+   font-weight: lighter;
+   font-style: italic;
+}
+
+.footer {
+   background: lightgray;
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   padding: 30px;
+   font-size: 12px;
+}
