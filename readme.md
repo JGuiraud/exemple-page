@@ -1,2 +1,2 @@
 Lien internet vers le site :
-initiation-code.surge.sh
+http://initiation-code.surge.sh
